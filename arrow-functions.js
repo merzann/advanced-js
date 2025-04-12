@@ -1,45 +1,44 @@
-/**
- * To run this file in Gitpod, use the 
- * command node arrow-functions.js in the terminal
- */
-
 // Vanilla JavaScript Function
-// function addTwoNumbers(a, b) {
-//     //Code block
-//     return a + b;
-// }
-// let sum = addTwoNumbers(3, 5);
-// console.log(sum);
+function addTwoNumbers(a, b) {
+    //Code block
+    return a + b;
+}
+let sum = addTwoNumbers(3, 5);
+console.log(sum);
 
 // Arrow Function With Parameters
-// const addTwoNumbers = (a, b) => {
-//     //Code block
-//     return a + b;
-// }
-// let sum = addTwoNumbers(3, 5);
-// console.log(sum);
+const addTwoNumbers2 = (a, b) => {
+    //Code block
+    return a + b;
+}
+let sum2 = addTwoNumbers2(3, 5);
+console.log(sum2);
 
 // Single Line Arrow Function With Parameters
-// const addTwoNumbers = (a, b) => a + b;
-// const addTwoNumbers2 = (a, b) =>(a + b); //also a valid way
-// let sum = addTwoNumbers(3, 5);
-// console.log(sum);
+const addTwoNumbers3 = (a, b) => a + b;
+const addTwoNumbers4 = (a, b) =>(a + b); //also a valid way
+let sum3 = addTwoNumbers3(4, 6);
+let sum4 = addTwoNumbers4(4, 6);
+console.log(sum3);
+console.log(sum4);
 
-// // Implicit Returns
-// const saySomething = message => console.log(message);
-// saySomething('Hello there!');
+// Implicit Returns
+const saySomething = message => console.log(message);
+saySomething('Hello there!');
 
-// const sayHello = () => console.log('Helllo again!');
-// sayHello();
+const sayHello = () => console.log('Helllo again!');
+sayHello();
 
-// // Returning Multiple Lines
-// const returnMultipleLines = () => (
-//     `<p>
-//         This is a multiline string!
-//     </p>`
-// )
-// console.log(returnMultipleLines());
+// Returning Multiple Lines
+const returnMultipleLines = () => (
+    `<p>
+        This is a multiline string!
+    </p>`
+)
+console.log(returnMultipleLines());
 
+
+// Challenge
 let students = [
     {
         name: 'John',
